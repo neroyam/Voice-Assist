@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceAssistent</string>
+    <string name="question_field_text">Ask a question</string>
+    <string name="send_button_text">Send</string>
+
+    <string name="default_answer">What?</string>
+
+    <string-array name="questions_standard">
+        <item name="hello">hello</item>
+        <item name="how_are_you">how are you</item>
+        <item name="what_are_you_doing">you doing</item>
+    </string-array>
+
+    <string-array name="answers_standard">
+        <item name="hello">Hello!</item>
+        <item name="how_are_you">Not bad</item>
+        <item name="what_are_you_doing">Answering your questions</item>
+    </string-array>
+
+    <string name="user_icon_desc">User icon</string>
+    <string name="user_name">You</string>
+    <string name="assistant_name">Assistant</string>
+    <string name="assistant_icon_desc">Assistant icon</string>
+    <string name="question_help">help</string>
+    <string name="answer_help">Deal it yourself</string>
+    <string name="question_today">today</string>
+    <string name="answer_today">Today</string>
+    <string name="question_dayOfWeek">dat of week</string>
+    <string name="answer_dayOfWeek">Day of Week</string>
+    <string name="question_hour">hour</string>
+    <string name="answer_hour">Now</string>
+    <string name="question_by_x_day">days before exam</string>
+    <string name="answer_by_x_day">Days before exam</string>
+    <string name="question_forecast">weather in the city</string>
+    <string name="message_think">Thinking</string>
+    <string name="day_setting">Daytime theme</string>
+    <string name="night_setting">Night theme</string>
+    <string name="answer_forecast_now">Now is</string>
+    <string name="answer_forecast_none">Cannot get forecast</string>
+    <string name="question_translate">translate</string>
+    <string name="question_holiday">holiday</string>
+    <string name="question_holiday_today">today</string>
+    <string name="question_holiday_tomorrow">tomorrow</string>
+    <string name="question_holiday_yesterday">yesterday</string>
+    <string name="answer_holiday_not_found">no holiday</string>
+    <string name="answer_holiday_not_all">Not all days were checked</string>
+</resources>

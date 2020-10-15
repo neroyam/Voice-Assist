@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="@dimen/main_padding"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatMessageList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="start|bottom"
+        android:textAlignment="gravity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/input_padding"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/questionField"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/question_field_text"
+            android:imeOptions="actionDone|flagNoExtractUi"
+            android:importantForAutofill="no"
+            android:inputType="textAutoCorrect"
+            android:textColor="@color/light_text_color"
+            android:textColorHint="@color/light_text_color_shadow" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:background="@drawable/button_background"
+            android:text="@string/send_button_text"
+            android:textColor="@color/light_text_color" />
+    </LinearLayout>
+</LinearLayout>
